@@ -17,9 +17,8 @@ void main(){
 	unsigned long int ulint_max = 18446744073709551615;
 	long long llong_max = 9223372036854775807;
 	unsigned long long ullong_max = 18446744073709551615;
-	float float_max = -38;
-	double double_max = -308;
-	long double ldouble_max = -308;
+	float f_test= 1.12345678901234567890;
+	long double ld_test = 1.12345678901234567890;
 
 
 	printf("int의 최댓값 : %d\n", int_max);
@@ -37,8 +36,10 @@ void main(){
 	printf("long int의 최댓값 : %ld\n", longint_max);
 	printf("unsigned long int의 최댓값 : %u\n", ulint_max);
 	printf("long long의 최댓값 : %lld\n", llong_max);
-	printf("unsigned long long의 최댓값 : %llu\n", ullong_max);
-	printf("float의 최댓값 : %f\n", float_max);
-	printf("double의 최댓값 : %f\n", double_max);
-	printf("long double의 최댓값 : %Lf\n", ldouble_max);
+	printf("unsigned long long의 최댓값 : %llu\n\n", ullong_max);
+
+	printf("float 정밀도 : %.25f\n", f_test);
+	// 소수점 6자리까지는 정확하게 출력된다.
+	printf("long double 정밀도 : %.25Lf\n", ld_test);
+	// 소수점 16자리까지는 정확하게 출력된다.
 }
