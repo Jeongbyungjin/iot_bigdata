@@ -9,10 +9,11 @@ void main(){
 	printf("%d + %d = %d\n", input_number1, input_number2, input_number1 + input_number2);
 
 	// 변수에 상수값을 할당
+	// = 대입연산자 (assingment operator)
 	input_number1 = 3;
 	input_number2 = 4;
 
-	// 변수에 수식(expression)이 할당
+	// 변수에 표현식(expression)이 할당
 	result = input_number1 + input_number2;
 	// 코드실행순서
 	// Cf. = : 대입연산자(수학에서의 개념과는 다르다.)
