@@ -14,4 +14,5 @@ void main(){
 	printf("%d * %d = %d\n",first_num, second_num, first_num * second_num);
 	printf("%d / %d = %d\n",first_num, second_num, first_num / second_num);
 	printf("%d %% %d = %d\n",first_num, second_num, first_num % second_num);
+	printf("%d %% %d = %d\n",first_num, second_num, first_num % second_num);
 }
