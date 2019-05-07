@@ -1,4 +1,5 @@
 #include <stdio.h>
+// github에 올리기 위한 수정
 
 void main(){
 	int num1, num2, num3;
