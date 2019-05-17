@@ -1,4 +1,5 @@
 #include <stdio.h>
+#pragma warning (disable:4996)
 
 void my_login(void){
 	const int my_password = 1234567;

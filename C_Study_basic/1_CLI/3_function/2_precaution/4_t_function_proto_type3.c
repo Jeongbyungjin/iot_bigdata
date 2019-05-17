@@ -1,4 +1,5 @@
 #include <stdio.h>
+#pragma warning (disable:4996)
 
 // 함수 원형(Function Prototype)
 // 아래와 같은 경우에도 함수 선언이 할 필요가 있다.

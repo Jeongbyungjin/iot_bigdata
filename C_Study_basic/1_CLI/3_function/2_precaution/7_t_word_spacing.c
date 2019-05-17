@@ -1,4 +1,5 @@
 #include <stdio.h>
+#pragma warning (disable:4996)
 // 명령어 사이의 줄바꿈 수는 몇개가 되더라도
 // 실행하는데에는 영향을 미치지 않는다.
 

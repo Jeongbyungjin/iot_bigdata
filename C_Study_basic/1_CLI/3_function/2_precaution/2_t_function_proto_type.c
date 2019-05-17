@@ -1,4 +1,5 @@
 #include <stdio.h>
+#pragma warning (disable:4996)
 
 // 함수 정의부가 함수 호출하는 라인 밑에 있을 경우에는 컴파일 에러를 발생한다.
 
