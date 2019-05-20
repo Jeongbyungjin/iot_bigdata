@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\3_Array\8_259_Arraylnit.c" />
+    <ClCompile Include="..\..\2_Intermediate\3_Array\2_string\6_t_korean_string2.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
